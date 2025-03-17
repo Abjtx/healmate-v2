@@ -9,7 +9,7 @@
   <br>
   (e.g., self-care, doctor consultation, or emergency care).
   <br>
-  Built with **Rasa**, **spaCy**, and **Flask**, and integrated with medical APIs for accurate triage.
+  Built with Large Language Models
   <br>
   <br>
 
@@ -18,14 +18,11 @@
 ## 🌟 Features
 - **Symptom Analysis**: Collects symptoms, duration, and severity.
 - **Urgency Triage**: Flags high-risk symptoms (e.g., chest pain).
-- **Medical Knowledge**: Integrates with [Endlessmedical API](https://endlessmedical.com/) for evidence-based recommendations.
 - **Privacy-First**: No personal health data stored.
 - **Web Interface**: Simple and intuitive UI.
 
 ## 🛠️ Technologies Used
-- **Backend**: Rasa (NLP/Dialogue Management), Flask (API)
-- **NLP**: spaCy, Rasa DIETClassifier
-- **APIs**: Endlessmedical (Medical Knowledge)
+- **Backend**: LLM APIs
 - **Frontend**: HTML/CSS/JavaScript
 - **Deployment**: Heroku (Backend), Netlify (Frontend)
 
@@ -52,9 +49,6 @@
    ```bash
    pip install -r requirements.txt
 
-4. **Train the Rasa Model**:
-   ```bash
-   rasa train
 
 ## 🤝 Contributing
 
