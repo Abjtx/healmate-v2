@@ -34,7 +34,7 @@ function checkForEmergency(text) {
 
 // Update sendToBackend function to make a request to GPT-3.5 API
 async function sendToBackend(message, followUp = false) {
-    const apiKey = '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';
+    const apiKey = 'Enter Your OPENAI API Key Here';
     const url = 'https://api.openai.com/v1/chat/completions';
 
     // Enhance the message with context for better interaction
