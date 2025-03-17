@@ -34,11 +34,12 @@ function checkForEmergency(text) {
 
 // Update sendToBackend function to make a request to GPT-3.5 API
 async function sendToBackend(message, followUp = false) {
-    const apiKey = 'Enter Your api Key Here';
+    const apiKey = '';
     const url = 'https://api.openai.com/v1/chat/completions';
 
     // Enhance the message with context for better interaction
-    const context = "This is a medical diagnosis interaction. Please ask more questions if necessary to understand the symptoms fully before providing a diagnosis. Once you understand the symptoms, provide the diagnosis and the treatment.";
+    // const context = "This is a medical diagnosis interaction. Please ask more questions if necessary to understand the symptoms fully before providing a diagnosis. Once you understand the symptoms, provide the diagnosis and the treatment.";
+    const context = "This is a medical diagnosis interaction. Understand the symptops and provide the possible diagnosis and the treatments separately";
     const formattedMessage = `${context}\n${message}`;
 
     const response = await axios.post(url, {
