@@ -1,0 +1,7 @@
+# Frontend dependencies are managed via CDN in the HTML file
+
+# For local development with Python (optional)
+http-server==14.1.1
+
+# API dependencies (for reference only - used by OpenAI)
+openai>=1.0.0 
